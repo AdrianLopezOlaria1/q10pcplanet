@@ -1,0 +1,40 @@
+<section>
+    <h2 class="text-success contorno">¡Contáctanos para cualquier pregunta o comentario!</h2>
+    <div class="container mt-4">
+        <form id="contactForm" onsubmit="comprobar(event)" class="bg-light p-4">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control">
+            </div>
+            
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" class="form-control">
+            </div>
+            
+            <div class="mb-3">
+                <label for="numero" class="form-label">Teléfono:</label>
+                <input type="text" id="numero" name="numero" class="form-control">
+            </div>
+            
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" class="form-control"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-success">Enviar Mensaje</button>
+        </form>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <h3  class="text-danger contorno">¡Estamos aquí!</h3>
+
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6114.974192140807!2d-0.07208640158054144!3d39.97521875706361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDU5JzA0LjMiTiAwwrAwMycxOC4xIlc!5e0!3m2!1sca!2ses!4v1707204320183!5m2!1sca!2ses" width="40%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="js/verificarForm.js"></script>

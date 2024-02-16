@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondo.png');
+
+    background-position: center center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Prevent the background from repeating */
+    background-attachment: fixed;
+    /* Optional: fix the background relative to the viewport */
+    background-size: cover;
+}
+
+header {
+    background-color: rgb(123, 179, 39);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.computer {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.computer img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.computer {
+    position: relative;
+    overflow: hidden;
+}
+
+.computer img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.zoom-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(0% at 70% 70%);
+    pointer-events: none;
+}
+
+
+
+
+
+.computer p {
+    color: #3498db;
+    /* Cambia el color del precio a un tono de azul */
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+    /* Ajusta el tamaño del precio según tu preferencia */
+    text-align: center;
+    /* Centra el precio */
+}
+
+#carrito {
+    margin-bottom: -10px;
+}
+
+.fixed-counter {
+    position: fixed;
+    top: 5%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+/* #about-section {
+    margin: 0 auto; 
+    max-width: 1200px; 
+} */
+
+.verde {
+    color: #54c985;
+}
+
+#contador {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.cart {
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    margin-left: 10%;
+    /* Centra el contenido en la página */
+    margin-right: 10%;
+    /* Establece el ancho máximo del contenido */
+}
+
+
+
+#contenido-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #15a752;
+}
+
+/* Estilo para la lista de productos */
+#listaProductos {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    /* O el ancho máximo que prefieras */
+    max-width: 600px;
+    /* Ancho máximo para la lista de productos */
+}
+
+
+#listaProductos li {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cargando {
+    text-align: center;
+}
+
+.contorno {
+    
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+
+}
+
+#audio1{ 
+    display:none
+}
+
+
